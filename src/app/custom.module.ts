@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { NavbarComponent } from './layouts/navbar.component';
+import { DrawerContentComponent } from "./drawer-content/drawer-content.component";
+import { RoutingModule } from './routing.module';
 import { 
   MatAutocompleteModule,
   MatBadgeModule,
@@ -37,11 +39,12 @@ import {
   MatTooltipModule,
   MatTreeModule,
  } from "@angular/material";
-
+import { CommonModule } from "@angular/common";
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    DrawerContentComponent
   ],
   imports: [
     MatAutocompleteModule,
@@ -79,6 +82,8 @@ import {
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
+    CommonModule,
+    RoutingModule
   ],
   exports: [
     MatAutocompleteModule,
@@ -116,7 +121,9 @@ import {
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-    NavbarComponent
+    NavbarComponent,
+    CommonModule,
+    RoutingModule
   ]
 })
 

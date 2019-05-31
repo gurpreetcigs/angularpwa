@@ -9,7 +9,22 @@ import { ChangeDetectorRef, Component, OnDestroy } from "@angular/core";
 })
 export class NavbarComponent implements OnDestroy{
   mobileQuery: MediaQueryList;
-  fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
+  // fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
+
+  fillerNav = [
+    {
+      name: "Pending Exercise",
+      route: "pending"
+    },
+    {
+      name: "List",
+      route: "pending"
+    },
+    {
+      name: "Wishlist",
+      route: "wishlist"
+    }
+  ];
 
   fillerContent = Array.from({length: 50}, () =>
       `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
