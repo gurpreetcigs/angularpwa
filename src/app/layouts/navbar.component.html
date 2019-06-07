@@ -12,6 +12,11 @@
         <a mat-list-item [routerLink]="nav.route" >{{nav.name}}</a>
 
         </ng-container>
+        <mat-divider></mat-divider>
+        <ng-container *ngFor="let navOther of fillerNavOther">
+        <a mat-list-item [routerLink]="navOther.route" >{{navOther.name}}</a>
+
+        </ng-container>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>

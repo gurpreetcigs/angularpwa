@@ -1,3 +1,6 @@
 https://mdbootstrap.com/education/pwa/angular/lesson-5-creating-firebase-database/
 
 https://mdbootstrap.com/education/pwa/angular/lesson-1-angular-pwa-introduction/
+
+hosting on firebase
+https://www.youtube.com/watch?v=LOeioOKUKI8

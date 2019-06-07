@@ -13,15 +13,30 @@ export class NavbarComponent implements OnDestroy{
 
   fillerNav = [
     {
-      name: "Pending Exercise",
+      name: "Home",
       route: "pending"
     },
     {
-      name: "List",
+      name: "Browse",
       route: "pending"
     },
     {
-      name: "Wishlist",
+      name: "Favourite",
+      route: "wishlist"
+    }
+  ];
+
+  fillerNavOther = [
+    {
+      name: "Help",
+      route: "pending"
+    },
+    {
+      name: "Blog",
+      route: "pending"
+    },
+    {
+      name: "Setting",
       route: "wishlist"
     }
   ];
