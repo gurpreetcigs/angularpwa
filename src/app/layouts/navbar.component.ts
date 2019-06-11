@@ -14,7 +14,7 @@ export class NavbarComponent implements OnDestroy{
   fillerNav = [
     {
       name: "Home",
-      route: "pending"
+      route: "dashboard"
     },
     {
       name: "Browse",

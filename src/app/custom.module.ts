@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { NavbarComponent } from './layouts/navbar.component';
 import { DrawerContentComponent } from "./drawer-content/drawer-content.component";
+import { ExerciseComponent } from "./exercise/exercise.component";
+import { DashboardComponent } from "./dashboard/dashboard.component";
 import { RoutingModule } from './routing.module';
 import { 
   MatAutocompleteModule,
@@ -44,7 +46,9 @@ import { CommonModule } from "@angular/common";
 @NgModule({
   declarations: [
     NavbarComponent,
-    DrawerContentComponent
+    DrawerContentComponent, 
+    DashboardComponent,
+    ExerciseComponent
   ],
   imports: [
     MatAutocompleteModule,
@@ -123,7 +127,9 @@ import { CommonModule } from "@angular/common";
     MatTreeModule,
     NavbarComponent,
     CommonModule,
-    RoutingModule
+    RoutingModule,
+    DashboardComponent,
+    ExerciseComponent
   ]
 })
 
